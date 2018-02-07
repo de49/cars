@@ -781,6 +781,15 @@ window.onkeyup = function(e){
 	if(e.keyCode == 39)
 		right = false;
 }
+window.onkeyup = function(e){
+	if(e.keyCode == 32)
+                SPEED * 2 = SPEED;
+		    setTimeout(function () {
+     		              SPEED / 2 = SPEED
+    			    }
+ 			   }, 250);
+			}
+		
 
 if(mobile){
 	window.ondeviceorientation = function(e){
